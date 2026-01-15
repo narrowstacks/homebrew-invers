@@ -26,7 +26,6 @@ class Invers < Formula
   def install
     bin.install "invers"
     pkgshare.install "config"
-    pkgshare.install "profiles"
   end
 
   def caveats
